@@ -10,14 +10,14 @@ This repository is used by AmiChain ChainList SDK [`@amichain/chainlist`](https:
 
 Each icon can be accessed directly in GitHub raw:
 ```
-https://github.com/Amichain/chain-icons/blob/main/svg/<chain-id>.<ext>>?raw=true
+https://github.com/Amichain/chain-icons/blob/main/<ext>/<chain-id>.<ext>>?raw=true
 ```
 
 However, this method has some limitations and cannot be used in HTML `<img>` tags due to CORS policy.
 
 We suggest using a CDN service such as [`jsdelivr.net`](https://jsdelivr.net) in that case:
 ```
-https://cdn.jsdelivr.net/gh/Amichain/chain-icons/svg/<chain-id>.<ext>
+https://cdn.jsdelivr.net/gh/Amichain/chain-icons/<ext>/<chain-id>.<ext>
 ```
 
 
